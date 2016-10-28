@@ -1,4 +1,3 @@
-package com.oxylane.android.cubeinstore.ui.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -23,7 +22,6 @@ import butterknife.ButterKnife;
  * @author Maxime Jallu
  * @since 25/10/2016
  * <p>
- * Create for CubeInStore - Android (Decathlon)
  * <p>
  * Use this Class for : <br/>
  * ... {DOCUMENTATION}
