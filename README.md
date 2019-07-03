@@ -22,7 +22,15 @@ view.background = SelectorWidget().apply {
 ```
 2019-04-05 16:50:19.775 19999-23379/{app.name} I/CURL: URL: https://{api_url}/products/123456
     ────────────────────────────────
-    cURL -X GET -H "Accept: application/json" -H "Application-Version: 4.14.4-version-SNAPSHOT" -H "Cookie: ...." -H "X-DeviceModel: ONEPLUS A5010" "https://{api_url}/products/123456" -L 
+    Request ID: CurlLogInterceptor@3f552a6
+    URL cible: http://{base_api_url}/{api_name}/123456
+
+    cURL -X GET -H "Accept: application/json"
+    -H "Accept: application/json"
+    -H "Application-Version: 4.14.4-version-SNAPSHOT" 
+    -H "Cookie: ...." 
+    -H "X-DeviceModel: ONEPLUS A8010" 
+    "https://{base_api_url}/{api_name}/123456" -L 
     ────────────────────────────────
 
 ```
