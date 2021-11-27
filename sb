@@ -99,7 +99,7 @@ function _checkkernel() {
 
 # check if create log function (4)
 function _logcheck() {
-   OUTTO="/dev/null 2>&1";;
+   OUTTO="/dev/null 2>&1";
    if [[ ! -d /root/tmp ]]; then
     sed -i 's/noexec,//g' /etc/fstab
     mount -o remount /tmp >>"${OUTTO}" 2>&1
