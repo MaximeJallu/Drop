@@ -195,14 +195,14 @@ function _askrtorrent() {
 # ask deluge version (if wanted) (9.2)
 function _askdeluge() {
   #DELUGE=REPO;;
-  DELUGE="NO";;
+  DELUGE="NO";
   echo "We will be using Deluge with Libtorrent ${DELUGE}"
   echo
 }
 
 # install qbittorrent question (9.3)
 function _askqb() {
-QBVERSION=no ;;
+QBVERSION=no ;
 echo "${bold}${green}qBittorrent ${QBVERSION}${normal} ${bold}will be installed${normal}" ; echo ; 
 }
 
